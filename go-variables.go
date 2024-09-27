@@ -44,5 +44,9 @@ func main() {
 	var exMyFloat float32 = 45.89
 
 	println(int(exMyFloat))
+	str := "Hello"
+	for index, runeValue := range str {
+		fmt.Printf("Index: %d, Rune: %c\n", index, runeValue)
+	}
 
 }
